@@ -12,6 +12,7 @@ def hello_name(name):
 
 @app.route('/<value>')
 def hello_value(value):
+	print("Value Printed")
 	print(value)
 	return 'Value printed on Command Line'
 
